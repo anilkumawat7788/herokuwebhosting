@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myheader{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url("https://picsum.photos/200/300");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+.mybackground h1{
+    color: brown;
+    text-align: center;
+}
+.myform{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.myformcenter{
+    background-color:brown;
+    margin: 3rem;
+    padding: 2rem 4rem 1rem 4rem;
+    border-radius: 10px;
+}
+.myform1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.myformcenter1{
+    background-color:blue;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.radio_inline{
+    display: inline-block;
+}
